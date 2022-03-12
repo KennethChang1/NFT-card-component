@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 290px;
+    border-radius: 5%;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.description{
+    color: 	#A0A0A0;
+    margin-bottom: 20px;
+}
+
+.art{
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+}
+
+.content{
+    margin: 20px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px ridge #A0A0A0;
+    padding-bottom: 20px;
+}
+
+.price{
+    position: relative;
+    color: hsl(178, 100%, 50%);
+    bottom: 3px;
+}
+
+.ethLogo{
+    width: 10px;
+}
+
+.time{
+    color: 	#A0A0A0;
+    position: relative;
+    bottom: 3px;
+}
+
+.avatar{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creator{
+    margin: 15px 0 0 0;
+}
+
+.author{
+    color: #A0A0A0;
+    position: relative;
+    bottom: 8px;
+}
